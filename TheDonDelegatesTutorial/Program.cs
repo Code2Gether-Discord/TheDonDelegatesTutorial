@@ -6,7 +6,9 @@ namespace TheDonDelegatesTutorial
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello World!");
+            var highLevelClass = new MyHighLevelClass();
+
+            Console.ReadLine();
         }
     }
 }
